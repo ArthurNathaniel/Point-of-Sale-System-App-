@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Regular';
+    color: #000;
+}
+
+body {
+    font-family: 'Gilroy-Regular';
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.whole-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.navbar {
+    border-right: 1px dashed;
+    height: 100%;
+    padding: 0 5%;
+    border: #808080;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.logo {
+    height: 90px;
+    width: 100%;
+    border: 2px dashed;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-items a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    background-color: #ffca40;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+}
+
+.profile {
+    padding-block: 20px;
+    background-color: #f8f8f7;
+}
+
+.profile-image {
+    height: 150px;
+    width: 150px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url(./image/Profile-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-info {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.profile-info p {
+    padding-block: 15px;
+}
+
+.profile-info a {
+    text-decoration: none;
+    color: #000;
+    background-color: #ccc;
+    padding: 10px 45px;
+    border-radius: 10px;
+}
+
+.food-all {
+    padding: 0 5%;
+    overflow-y: scroll;
+
+}
+
+.food-title h1 {
+    font-weight: 900;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.food-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.food-card {
+    border-radius: 20px;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-block: 35px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.food-image {
+    height: 25vh;
+    background-image: url(./image/Cheeseburger-3d7c922-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.food-name {
+    text-align: center;
+}
+
+.food-name h3 {
+    font-size: 27px;
+}
+
+.food-prce {
+    margin-top: 15px;
+    text-align: center;
+    color: #ffca40;
+    font-size: 27px;
+    font-weight: 800;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#orderForm {
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    width: 30%;
+    right: 0;
+    padding: 0 2%;
+    padding-block: 25px;
+    height: 100vh;
+    top: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.food-card button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 20px;
+}

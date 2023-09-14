@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="whole-grid">
+        <div class="navbar">
+            <div class="logo">
+logo
+            </div>
+            <div class="nav-items">
+                <a href=""><i class="fa-solid fa-bars"></i> Dashboard</a>
+                <a href=""><i class="fa-solid fa-utensils"></i> Food</a>
+                <a href=""><i class="fa-solid fa-champagne-glasses"></i> Drinks</a>
+                <a href=""><i class="fa-solid fa-money-bill-trend-up"></i> Bills</a>
+            </div>
+            <div class="profile">
+                <div class="profile-image">
+
+                </div>
+                <div class="profile-info">
+                    <h3>Kobby Nathan</h3>
+                    <p>
+                      Main  Chief
+                    </p>
+
+                    <a href="">Open profile</a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="food-all">
+            
+            <div class="food-title">
+                <h1>Burgers</h1>
+            </div>
+            <div class="food-grid" >
+
+                <div class="food-card">
+                    <div class="food-image">
+                
+                    </div>
+                    <div class="food-name">
+                        <h3>Cheeseburger</h3>
+                    </div>
+                    <div class="food-prce">
+                        GH₵ 18.41
+                    </div>
+                        <button class="orderButton">Order Now</button>
+
+                </div>
+                
+                <div class="food-card" id="myFoodCard">
+                    <div class="food-image" style="background-image: url(./image/images-removebg-preview.png);">
+                
+                    </div>
+                    <div class="food-name">
+                        <h3>Chicken- Deluxe</h3>
+                    </div>
+                    <div class="food-prce">
+                        GH₵ 10.00
+                    </div>
+                    <button class="orderButton">Order Now</button>
+
+                </div>
+               
+                <div class="food-card">
+                    <div class="food-image" style="background-image: url(./image/images__1_-removebg-preview.png);">
+                
+                    </div>
+                    <div class="food-name">
+                        <h3>Hamburger</h3>
+                
+                    </div>
+                    <div class="food-prce">
+                        GH₵ 15.00 </div>
+                        <button class="orderButton">Order Now</button>
+
+                </div>
+              
+
+            </div>
+        </div>
+    </div>
+<div id="orderForm" class="hidden">
+    <div class="close-icon" id="closeButton">&#10006;</div>
+    <div class="food-card">
+        <div class="food-image">
+
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>   
+</body>
+
+</html>
